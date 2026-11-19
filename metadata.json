@@ -1,0 +1,8 @@
+{
+  "name": "XocoMet",
+  "description": "App meteorológica local para Vinarós.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
+
