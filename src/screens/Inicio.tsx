@@ -201,7 +201,7 @@ export default function Inicio() {
     <div style={{ display: 'flex', flexDirection: 'column', gap: '15px' }}>
       <div style={{ background: 'rgba(255,255,255,0.1)', padding: '16px', borderRadius: '12px', backdropFilter: 'blur(10px)' }}>
         <h2 style={{ fontSize: '1.2rem', marginBottom: '14px', borderBottom: '1px solid rgba(255,255,255,0.2)', paddingBottom: '8px' }}>
-          Ahora en Vinaròs
+          Ahora en Càlig
           {esMockAvamet && (
             <span style={{ fontSize: '0.8rem', opacity: 0.7, fontWeight: 'normal', marginLeft: '8px' }}>
               (Datos de ejemplo)
