@@ -65,8 +65,8 @@ export default function App() {
   const compartirApp = () => {
     if (navigator.share) {
       navigator.share({
-        title: 'MeteoCálig',
-        text: 'Mira el tiempo en Càlig con MeteoCálig',
+        title: 'MeteoCàlig',
+        text: 'Mira el tiempo en Càlig con MeteoCàlig',
         url: window.location.origin,
       }).catch((error) => console.log('Error al compartir', error));
     } else {
@@ -125,7 +125,7 @@ export default function App() {
       <div className="content">
         <header style={{ textAlign: 'center', marginBottom: '20px', position: 'relative' }}>
           <h1 style={{ fontSize: '2rem', textShadow: '2px 2px 4px rgba(0,0,0,0.8)' }}>
-            MeteoCálig
+            MeteoCàlig
           </h1>
           <p style={{ fontSize: '0.9rem', opacity: 0.8 }}>Càlig</p>
 
@@ -152,7 +152,7 @@ export default function App() {
                 cursor: 'pointer'
               }}
             >
-              ☕ Apoya a MeteoCálig
+              ☕ Apoya a MeteoCàlig
             </a>
           </div>
           
@@ -193,7 +193,7 @@ export default function App() {
             {eventoInstalacion ? (
               <>
                 <p style={{ fontSize: '0.9rem', marginBottom: '10px' }}>
-                  Instala MeteoCálig en tu móvil para acceder más rápido
+                  Instala MeteoCàlig en tu móvil para acceder más rápido
                 </p>
                 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px' }}>
                   <button
@@ -233,7 +233,7 @@ export default function App() {
             ) : (
               <>
                 <p style={{ fontSize: '0.9rem', marginBottom: '8px', fontWeight: 'bold' }}>
-                  Cómo instalar MeteoCálig:
+                  Cómo instalar MeteoCàlig:
                 </p>
                 <p style={{ fontSize: '0.85rem', marginBottom: '10px', lineHeight: '1.4', opacity: '0.9' }}>
                   • <b>Android (Chrome):</b> Pulsa el menú (⋮) arriba a la derecha y selecciona <em>"Instalar aplicación"</em> o <em>"Añadir a la pantalla de inicio"</em>.<br />

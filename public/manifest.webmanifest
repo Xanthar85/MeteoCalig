@@ -1,6 +1,6 @@
 {
-  "name": "MeteoCálig",
-  "short_name": "MeteoCálig",
+  "name": "MeteoCàlig",
+  "short_name": "MeteoCàlig",
   "description": "App meteorológica local para Càlig.",
   "start_url": "./",
   "scope": "./",
